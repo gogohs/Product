@@ -1,6 +1,7 @@
 # Deploy to Azure Kubernetes Service
 # Build and push image to Azure Container Registry; Deploy to Azure Kubernetes Service
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
+
 trigger:
 - master
 
@@ -13,7 +14,7 @@ variables:
   # containerRegistryDockerConnection: 'acr'
   # environment: 'aks.default'
 - name: imageRepository
-  value: 'products'
+  value: 'product'
 - name: dockerfilePath
   value: '**/Dockerfile'
 - name: tag
