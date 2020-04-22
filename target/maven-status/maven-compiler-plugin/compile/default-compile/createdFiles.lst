@@ -1,0 +1,9 @@
+market\ProductRegistered.class
+market\ProductController.class
+market\config\kafka\KafkaProcessor.class
+market\ProductRepository.class
+market\PolicyHandler.class
+market\Application.class
+market\AbstractEvent.class
+market\Product.class
+market\ProductStatusChanged.class
